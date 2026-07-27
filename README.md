@@ -2,7 +2,7 @@
 
 **DREAM: A Multi-Criteria Global Selection and Local Competence Framework for Dynamic Combination in Heterogeneous Regression Ensembles**
 
-DREAM is a three-phase framework for dynamic ensemble selection and combination applied to regression tasks using heterogeneous pools of base models. It was proposed and evaluated as part of a doctoral thesis in Computer Engineering at PPGEc-UPE / CIn-UFPE (Recife, Brazil).
+DREAM is a three-phase framework for dynamic ensemble selection and combination applied to regression tasks using heterogeneous pools of base models. It was proposed and evaluated as part of a doctoral thesis in Computer Engineering at PPGEc-UPE.
 
 ---
 
