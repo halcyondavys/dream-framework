@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "DREAM: A Multi-Criteria Global Selection and Local Competence Framework for Dynamic Combination in Heterogeneous Regression Ensembles"
+authors:
+  - family-names: "Pimentel de Carvalho"
+    given-names: "Halcyon Davys"
+    orcid: "https://orcid.org/0000-0001-8933-5912"
+    affiliation: "University of Pernambuco (UPE)"
+  - family-names: "de Oliveira"
+    given-names: "João Fausto L."
+    affiliation: "University of Pernambuco (UPE)"
+  - family-names: "Andrade de A. Fagundes"
+    given-names: "Roberta"
+    affiliation: "University of Pernambuco (UPE)"
+repository-code: "https://github.com/halcyondavys/dream-framework"
+url: "https://github.com/halcyondavys/dream-framework"
+license: MIT
+year: 2026
+keywords:
+  - dynamic ensemble selection
+  - ensemble regression
+  - heterogeneous ensemble
+  - local competence estimation
+  - dynamic combination
+  - meta-learning
+abstract: >
+  DREAM is a three-phase framework for dynamic ensemble selection and combination
+  applied to regression tasks. Phase 1 performs multicriteria global model selection
+  from a heterogeneous pool using a Combined Selection Score (CSS) optimized via
+  Bayesian search (Optuna/TPE). Phase 2 estimates local competence for each base
+  model using KNN with Inverse Distance Weighting (IDW). Phase 3 applies three
+  dynamic combination strategies (DREAM-DS, DREAM-DW, DREAM-DWS) evaluated on
+  30 benchmark regression datasets using a 20x10-fold cross-validation protocol.
+references:
+  - type: article
+    authors:
+      - family-names: "Pimentel de Carvalho"
+        given-names: "Halcyon Davys"
+      - family-names: "de Oliveira"
+        given-names: "João Fausto L."
+      - family-names: "Andrade de A. Fagundes"
+        given-names: "Roberta"
+    title: "Dynamic Selection of Ensemble-Based Regression Models: A Systematic Literature Review"
+    journal: "Expert Systems with Applications"
+    volume: 290
+    pages: "128429"
+    year: 2025
+    doi: "10.1016/j.eswa.2025.128429"
+  - type: conference-paper
+    authors:
+      - family-names: "Pimentel de Carvalho"
+        given-names: "Halcyon Davys"
+      - family-names: "de Oliveira"
+        given-names: "João Fausto L."
+      - family-names: "Andrade de A. Fagundes"
+        given-names: "Roberta"
+    title: "Ensembles for Regression: A Statistical Analysis and Recommendations"
+    collection-title: "Anais do XVII Congresso Brasileiro de Inteligência Computacional (CBIC 2025)"
+    year: 2025
+    location:
+      name: "Belo Horizonte, Brazil"
+    doi: "10.21528/CBIC2025-1176303"
