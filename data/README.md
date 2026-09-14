@@ -1,6 +1,6 @@
 # Datasets
 
-The datasets used in DREAM's experimental evaluation are available in this repository. The real-world benchmark datasets are stored in `data/real/`, whereas the synthetic datasets used in the factorial ablation study are stored in `data/synthetic/`.. They are publicly available from the UCI Machine Learning Repository and OpenML.
+The datasets used in DREAM's experimental evaluation are available in this repository. The benchmark datasets are stored in `data/real/`, whereas the synthetic datasets used in the factorial ablation study are stored in `data/synthetic/`. The original datasets are publicly available from the UCI Machine Learning Repository, OpenML and Zenodo.
 
 ---
 
@@ -19,7 +19,7 @@ The real-world datasets are stored in `data/real/` as `.data` files with no head
 | 5 | bank8FM | OpenML | [Dataset page](https://www.openml.org/d/572) |
 | 6 | wiscoinBreastCancer | UCI | [Dataset page](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic) |
 | 7 | ccpp | UCI | [Dataset page](https://archive.ics.uci.edu/dataset/294/combined+cycle+power+plant) |
-| 8 | china | [Zenodo] | [Dataset page](https://doi.org/10.5281/zenodo.268446) |
+| 8 | china | Zenodo | [Dataset page](https://doi.org/10.5281/zenodo.268446) |
 | 9 | cocomonasa60 | OpenML | [Dataset page](https://www.openml.org/d/1049) |
 | 10 | cocomo81 | OpenML | [Dataset page](https://www.openml.org/d/1050) |
 | 11 | concrete | UCI | [Dataset page](https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength) |
