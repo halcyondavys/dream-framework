@@ -11,8 +11,8 @@ import time
 steps = [
     # (label, script_path)
     ("Phase 0 — Preprocessing",                  "phase0_dataset/preAnaliseDataset.py"),
-    ("Phase 1 — Global Model Selection",          "phase1_global/runPhase1_-_Dream.py"),
-    ("Phase 1 — Results Extraction",             "phase1_global/runPhase1_-_Results.py"),
+    ("Phase 1 — Global Model Selection",          "phase1_global/runPhase1 - Dream.py"),
+    ("Phase 1 — Results Extraction",             "phase1_global/runPhase1 - Results.py"),
     ("Phase 1 — Analysis",                        "phase1_global/runPhase1_Analysis.py"),
     ("Phase 2 — Local Competence Estimation",     "phase2_competence/runPhase2.py"),
     ("Phase 2 — Results Extraction",             "phase2_competence/runPhase2_results.py"),
