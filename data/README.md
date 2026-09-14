@@ -89,3 +89,11 @@ The generated datasets are available in `data/synthetic/` and can be regenerated
 | C10 | Discrete | High | Baseline | C10-discreto-alto-baixo.data |
 | C11 | Discrete | High | F3a | C11-discreto-alto-f3a.data |
 | C12 | Discrete | High | F3b | C12-discreto-alto-f3b.data |
+
+---
+
+## Dataset Attribution
+
+The datasets retain the attribution and usage conditions established by their original providers. The copies included in this repository are provided to support the reproducibility of the DREAM experiments.
+
+Users intending to redistribute or reuse individual datasets should consult the corresponding UCI, OpenML or Zenodo dataset page for licensing and attribution information.
