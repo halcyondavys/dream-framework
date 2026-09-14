@@ -56,9 +56,9 @@ pip install -r requirements.txt
 
 ## Datasets
 
-DREAM was evaluated on 30 benchmark regression datasets from the UCI Machine Learning Repository, Torgo, Delve and PROMISE. The datasets are distributed with this repository. and can be downloaded files in `data/real/`. See [`data/README.md`](data/README.md) for the complete list, sources, and download instructions.
+DREAM was evaluated on 30 benchmark regression datasets obtained from public repositories, including the UCI Machine Learning Repository, OpenML and Zenodo. The dataset files used in the experiments are available in `data/real/`. See [`data/README.md`](data/README.md) for the complete list, original sources and data format.
 
-All datasets follow the same format: CSV with no header, comma-separated, with the **target variable in the first column**.
+All datasets follow the same format: `.data` files without a header, using commas as separators and placing the **target variable in the first column**.
 
 The 12 synthetic datasets used in the factorial ablation study are already available in `data/synthetic/` and require no external download. They can also be regenerated at any time by running `data/Gerador_synthetic.py`.
 
