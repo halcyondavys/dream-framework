@@ -83,8 +83,8 @@ python phase0_dataset/preAnaliseDataset.py
 
 **Phase 1 — Global Model Selection**
 ```bash
-python phase1_global/runPhase1_-_Dream.py
-python phase1_global/runPhase1_-_Results.py
+python phase1_global/runPhase1 - Dream.py
+python phase1_global/runPhase1 - Results.py
 python phase1_global/runPhase1_Analysis.py
 ```
 
