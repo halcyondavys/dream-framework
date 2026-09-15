@@ -7,6 +7,9 @@
 import subprocess
 import sys
 import time
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent
 
 steps = [
     # (label, script_path)
@@ -38,13 +41,16 @@ def run_pipeline():
     print("  DREAM Framework — Full Pipeline")
     print("=" * 60)
 
+    script_path = PROJECT_ROOT / script
+
     for i, (name, script) in enumerate(steps, start=1):
         print(f"\n[{i}/{len(steps)}] {name}")
         print("-" * 60)
         step_start = time.time()
 
         result = subprocess.run(
-            [sys.executable, script],
+            [sys.executable, script_path.name],
+            cwd=script_path.parent,
             check=False
         )
 
