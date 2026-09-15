@@ -41,19 +41,19 @@ def run_pipeline():
     print("  DREAM Framework — Full Pipeline")
     print("=" * 60)
 
-    script_path = PROJECT_ROOT / script
-
     for i, (name, script) in enumerate(steps, start=1):
         print(f"\n[{i}/{len(steps)}] {name}")
         print("-" * 60)
         step_start = time.time()
+
+        script_path = PROJECT_ROOT / script
 
         result = subprocess.run(
             [sys.executable, script_path.name],
             cwd=script_path.parent,
             check=False
         )
-
+        
         elapsed = time.time() - step_start
 
         if result.returncode != 0:
