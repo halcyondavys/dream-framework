@@ -185,6 +185,6 @@ Halcyon Davys P. de Carvalho, João Fausto L. de Oliveira, Roberta Andrade de A.
 
 ---
 
-**Halcyon Davys Pimentel de Carvalho**
+**Halcyon Davys Pereira de Carvalho**
 ORCID: [0000-0001-8933-5912](https://orcid.org/0000-0001-8933-5912)
-PPGEc-UPE / CIn-UFPE — Recife, Brazil
+PPGEc-UPE — Recife, Brazil
