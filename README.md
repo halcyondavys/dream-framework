@@ -1,6 +1,6 @@
 # DREAM Framework
 
-**DREAM: A Multi-Criteria Global Selection and Local Competence Framework for Dynamic Combination in Heterogeneous Regression Ensembles**
+**Framework DREAM: Seleção Dinâmica de Modelos de Regressão Baseada em Ensembles Heterogêneos (DREAM Framework: Dynamic Selection of Regression Models Based on Heterogeneous Ensembles)**
 
 DREAM is a three-phase framework for dynamic ensemble selection and combination applied to regression tasks using heterogeneous pools of base models. It was proposed and evaluated as part of a doctoral thesis in Computer Engineering at PPGEc-UPE.
 
@@ -14,7 +14,7 @@ DREAM operates in three sequential phases:
 
 The first phase builds a heterogeneous pool of base regressors and selects the most promising models using a multicriteria scoring function called CSS (Combined Selection Score). The CSS integrates accuracy, stability, diversity, consensus and a regression-adapted double-fault measure, with weights optimized per dataset via Bayesian search (Optuna/TPE). A dynamic threshold over the score distribution determines the pool size adaptively, retaining between 3 and 9 models. The output is a compact, structurally diverse subset of models passed to the next phases.
 
-**Phase 2 — Local Competence Estimation**
+**Phase 2 — Local Error Estimation**
 
 For each test instance, DREAM estimates the local competence of each selected model based on its prediction error in the neighborhood of that instance. Neighborhood is defined using KNN with Inverse Distance Weighting (IDW), so closer training instances contribute more to the competence estimate. Two K-selection strategies are supported: a fixed value (K = 10) or an adaptive heuristic based on training set size (√N for N ≤ 1000; ln(N) for N > 1000, bounded between 3 and 20).
 
@@ -88,7 +88,7 @@ python "phase1_global/runPhase1_Results.py"
 python phase1_global/runPhase1_Analysis.py
 ```
 
-**Phase 2 — Local Competence Estimation**
+**Phase 2 — Local Error Estimation**
 ```bash
 python phase2_competence/runPhase2.py
 python phase2_competence/runPhase2_results.py
@@ -132,16 +132,16 @@ If you use this framework in your research, please consider citing the following
 
 **Doctoral Thesis**
 
-Halcyon Davys P. de Carvalho. *DREAM: A Multi-Criteria Global Selection and Local Competence Framework for Dynamic Combination in Heterogeneous Regression Ensembles*. Doctoral thesis, PPGEc-UPE / CIn-UFPE, Recife, Brazil, 2026.
+Halcyon Davys P. de Carvalho. *Framework DREAM: Seleção Dinâmica de Modelos de Regressão Baseada em Ensembles Heterogêneos* (DREAM Framework: Dynamic Selection of Regression Models Based on Heterogeneous Ensembles). Doctoral thesis (in Portuguese), Graduate Program in Computer Engineering (PPGEC), University of Pernambuco, Recife, Brazil, 2026.
 
 ```bibtex
 @phdthesis{carvalho2026dream,
   author  = {Halcyon Davys Pimentel de Carvalho},
-  title   = {DREAM: A Multi-Criteria Global Selection and Local Competence
-             Framework for Dynamic Combination in Heterogeneous Regression Ensembles},
-  school  = {Universidade de Pernambuco / Universidade Federal de Pernambuco},
+  title   = {Framework {DREAM}: Sele{\c{c}}{\~a}o Din{\^a}mica de Modelos de Regress{\~a}o Baseada em Ensembles Heterog{\^e}neos},
+  school  = {Universidade de Pernambuco},
   year    = {2026},
   address = {Recife, Brazil},
+  note    = {In Portuguese. English title: DREAM Framework: Dynamic Selection of Regression Models Based on Heterogeneous Ensembles},
   url     = {https://github.com/halcyondavys/dream-framework}
 }
 ```
