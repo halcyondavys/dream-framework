@@ -136,7 +136,7 @@ Halcyon Davys P. de Carvalho. *Framework DREAM: Seleção Dinâmica de Modelos d
 
 ```bibtex
 @phdthesis{carvalho2026dream,
-  author  = {Halcyon Davys Pimentel de Carvalho},
+  author  = {Halcyon Davys Pereira de Carvalho},
   title   = {Framework {DREAM}: Sele{\c{c}}{\~a}o Din{\^a}mica de Modelos de Regress{\~a}o Baseada em Ensembles Heterog{\^e}neos},
   school  = {Universidade de Pernambuco},
   year    = {2026},
