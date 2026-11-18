@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 type: software
 title: "DREAM: A Multi-Criteria Global Selection and Local Competence Framework for Dynamic Combination in Heterogeneous Regression Ensembles"
 authors:
-  - family-names: "Pimentel de Carvalho"
+  - family-names: "Pereira de Carvalho"
     given-names: "Halcyon Davys"
     orcid: "https://orcid.org/0000-0001-8933-5912"
     affiliation: "University of Pernambuco (UPE)"
@@ -35,7 +35,7 @@ abstract: >
 references:
   - type: article
     authors:
-      - family-names: "Pimentel de Carvalho"
+      - family-names: "Pereira de Carvalho"
         given-names: "Halcyon Davys"
       - family-names: "de Oliveira"
         given-names: "João Fausto L."
@@ -49,7 +49,7 @@ references:
     doi: "10.1016/j.eswa.2025.128429"
   - type: conference-paper
     authors:
-      - family-names: "Pimentel de Carvalho"
+      - family-names: "Pereira de Carvalho"
         given-names: "Halcyon Davys"
       - family-names: "de Oliveira"
         given-names: "João Fausto L."
